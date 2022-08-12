@@ -1,8 +1,8 @@
 # AluraGeek
 
-Este código es para un sitio de tipo e-comerce responsivo creado con HTML, CSS y JavaScript. Este proyecto forma parte del proceso Oracle ONE en conjunto con Alura Latam.
+Este código es para un sitio de tipo e-comerce responsivo creado con HTML, CSS. Este proyecto forma parte del proceso Oracle ONE en conjunto con Alura Latam.
 
-Este es un proyecto en desarrollo, por lo que muchas funcionalidades están implementándose actualmente.
+Este es un proyecto en desarrollo, por lo que muchas funcionalidades JavaScript están implementándose actualmente.
 
 ## Secciones
 
