@@ -1,0 +1,23 @@
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.btnacent {
+    transition: all .2s ease-in-out;
+}
+.btnacent:hover {
+    transform: scale(1.01);
+    background-color: var(--color-fondo-acento);
+}
+
+.btnwhite {
+    transition: all .2s ease-in-out;
+}
+.btnwhite:hover {
+    transform: scale(1.01);
+    background-color: var(--color-fondo-acento);
+    color: var(--color-texto-blanco);
+}

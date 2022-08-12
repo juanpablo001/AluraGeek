@@ -1,0 +1,38 @@
+.detalle {
+	display: flex;
+    justify-content: center;
+    padding:  4rem 0;
+    background-color: var(--color-fondo-primario);
+}
+.item {
+	display: flex;
+	width: 1136px;
+}
+.item__texto {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.item__img {
+	width: 560px;
+	height:  403px;
+}
+.item__nombre {
+	font-weight: 500;
+	font-size: 52px;
+	line-height: 61px;
+	padding-bottom: 0.5rem;
+}
+.item__precio {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	padding-bottom: 0.5rem;
+}
+.item__descripcion {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	/*text-align: justify;*/
+}

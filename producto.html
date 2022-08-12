@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AluraGeek - Detalle Producto</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="icon" type="image/x-icon" href="assets/images/logo.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/land/botones.css">
+	<link rel="stylesheet" href="assets/css/land/header.css">
+	<link rel="stylesheet" href="assets/css/land/producto.css">
+	<link rel="stylesheet" href="assets/css/land/footer.css">
+	<link rel="stylesheet" href="assets/css/animations.css">
+	<link rel="stylesheet" href="assets/css/productos/productos.css">
+	<link rel="stylesheet" href="assets/css/productos/detalle.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__container">
+			<div class="header__logoform"><a href="index.html">
+				<img src="assets/images/img_logo40.svg" alt="Logo AluraGeek" class="header__logo"></a>
+				<form action="" class="header__form">
+					<div class="header__searchl"></div>
+					<input type="search" placeholder="¿Qué deseas buscar?" class="header__form__input">
+					<div class="header__searchr"><img src="assets/images/img_search.png" alt="Buscar"></div>
+				</form>
+			</div>
+			<div></div>
+			<img src="assets/images/img_search.png" alt="Buscar" class="header__searchbtn">
+		</div>
+	</header>
+
+	<main>
+
+		<section class="detalle">
+			<div class="item">
+				<img src="assets/images/img_001.jpg" alt="Producto" class="item__img">
+				<div class="item__texto">
+					<p class="item__nombre">Producto XYZ</p>
+					<p class="item__precio">$ 60.00</p>
+					<p class="item__descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion">
+			<div class="producto">
+
+				<div class="pro__head">
+					<h3 class="pro__title">Productos similares</h3>
+				</div>
+
+				<div class="pro__lista">
+					<div class="pro__detalle grow">
+						<img src="assets/images/img_002.jpg" alt="Producto" class="pro__img">
+						<p class="pro__nombre">Producto XYZ</p>
+						<p class="pro__costo">$ 60.00</p>
+						<p class="pro__lnk"><a href="#">Ver producto</a></p>
+					</div>
+					<div class="pro__detalle grow">
+						<img src="assets/images/img_003.jpg" alt="Producto" class="pro__img">
+						<p class="pro__nombre">Producto XYZ</p>
+						<p class="pro__costo">$ 60.00</p>
+						<p class="pro__lnk"><a href="#">Ver producto</a></p>
+					</div>
+					<div class="pro__detalle grow">
+						<img src="assets/images/img_004.jpg" alt="Producto" class="pro__img">
+						<p class="pro__nombre">Producto XYZ</p>
+						<p class="pro__costo">$ 60.00</p>
+						<p class="pro__lnk"><a href="#">Ver producto</a></p>
+					</div>
+					<div class="pro__detalle grow">
+						<img src="assets/images/img_005.jpg" alt="Producto" class="pro__img">
+						<p class="pro__nombre">Producto XYZ</p>
+						<p class="pro__costo">$ 60.00</p>
+						<p class="pro__lnk"><a href="#">Ver producto</a></p>
+					</div>
+					<div class="pro__detalle grow">
+						<img src="assets/images/img_006.jpg" alt="Producto" class="pro__img">
+						<p class="pro__nombre">Producto XYZ</p>
+						<p class="pro__costo">$ 60.00</p>
+						<p class="pro__lnk"><a href="#">Ver producto</a></p>
+					</div>
+                    <div class="pro__detalle grow">
+						<img src="assets/images/img_008.jpg" alt="Producto" class="pro__img">
+						<p class="pro__nombre">Control XYZ</p>
+						<p class="pro__costo">$ 60.00</p>
+						<p class="pro__lnk"><a href="#">Ver producto</a></p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+
+		<section class="footer">
+			<div class="footer__content">
+				<div class="footer__lt">
+					<div class="footer__logo"><a href="/">
+						<img src="assets/images/img_logo.png" alt="Logo AluraGeek"></a>
+					</div>
+					<div class="footer__links">
+						<p><a href="#1">Quiénes somos</a></p>
+						<p><a href="#2">Política de privacidad</a></p>
+						<p><a href="#3">Política de fidelidad</a></p>
+						<p><a href="#4">Nuestras Tiendas</a></p>
+						<p><a href="#5">Quiero ser franquiciado</a></p>
+						<p><a href="#6">Anuncie aqui</a></p>
+					</div>
+				</div>
+				<div class="footer__contact">
+					<p class="footer__contact_text">Hable con nosotros</p>
+					<form id="footer__contact__form" class="footer__contact__form" action="">
+						<div class="footer__contact__input">                        
+							<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="contact__input" required data-tipo="nombre">
+							<label for="nombre" class="contact__input__label">Nombre</label>
+							<span class="contact__mensaje__error"></span>
+						</div>
+						<div class="footer__contact__input">
+							<textarea type="text" id="mensaje" name="mensaje" placeholder="Mensaje" class="contact__txtarea" required data-tipo="mensaje"></textarea>
+							<label for="mensaje" class="contact__input__label">Escriba su mensaje</label>
+							<span class="contact__mensaje__error"></span>
+						</div>
+							<button type="submit" class="contact__btn__send btnacent">Enviar Mensaje</button>
+					</form>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="footer__rodapie">
+			<div class="rodapie__texto">
+				<p>Desarrollado por Juan Pablo Amador</p>
+				<p>2022</p>
+			</div>
+		</section>
+
+	</footer>
+
+</body>

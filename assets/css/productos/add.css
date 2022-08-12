@@ -1,0 +1,77 @@
+.add {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-fondo-primario);
+}
+
+.add__form {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+}
+
+.add__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+}
+
+.add__container__input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.add__input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.8rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0 0 1rem;
+    font-size: 18px;
+    border-radius: 4px;
+    border-style: none;
+}
+.add__txtarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 82px;
+    margin-bottom: 1rem;
+    padding: 1.5rem 0 0 0.5rem;
+    border-radius: 4px;
+    border-style: none;
+    resize: inherit;
+}
+
+@media (max-width: 1200px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 768px) {
+    .add__container {
+        width: 704px
+    }
+    .add__title {
+        font-size: 1.8rem;
+    }
+    .add__input {
+        width: 704px;
+    }
+}
+@media (max-width: 560px) {
+    .header__logo {
+        padding-right: 0;
+    }
+    .add__input {
+        width: 559px;
+        height: 41px;
+    }
+}
+@media (max-width: 360px) {
+    .add__input {
+        width: 328px;
+        height: 41px;
+    }
+}

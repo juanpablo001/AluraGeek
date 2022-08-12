@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AluraGeek - Agregar Producto</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="icon" type="image/x-icon" href="assets/images/logo.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/land/botones.css">
+	<link rel="stylesheet" href="assets/css/land/header.css">
+	<link rel="stylesheet" href="assets/css/land/footer.css">
+	<link rel="stylesheet" href="assets/css/animations.css">
+	<link rel="stylesheet" href="assets/css/productos/add.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__container">
+			<div class="header__logoform"><a href="/">
+				<img src="assets/images/img_logo40.svg" alt="Logo AluraGeek" class="header__logo"></a>
+				<form action="" class="header__form">
+					<div class="header__searchl"></div>
+					<input type="search" placeholder="¿Qué deseas buscar?" class="header__form__input">
+					<div class="header__searchr"><img src="assets/images/img_search.png" alt="Buscar"></div>
+				</form>
+			</div>
+			<a href="productos.html">
+				<button class="header__form__btn btnwhite">Menú Admin</button>
+			</a>
+			<img src="assets/images/img_search.png" alt="Buscar" class="header__searchbtn">
+		</div>
+	</header>
+
+	<main>
+
+		<section class="add">
+			<div class="add__container">
+				<h3 class="add__title">Agregar nuevo producto</h3>
+				<form action="" class="add__form">
+					<div class="add__container__input">
+						<input type="text" id="nombreImg" name="nombreImg" placeholder="URL de imagen" class="add__input" required data-tipo="urlimg">
+						<label for="nombreImg" class="add__input__label">URL de imagen</label>
+						<span class="add__mensaje__error"></span>
+					</div>
+					<div class="add__container__input">
+						<input type="text" id="categoria" name="categoria" placeholder="Categoria" class="add__input" requiered data-tipo="categoria">
+						<label for="categoria" class="add__input__label">Categoria</label>
+						<span class="add__mensaje__error"></span>
+					</div>
+                    <div class="add__container__input">
+						<input type="text" id="nombreprod" name="nombreprod" placeholder="Nombre del producto" class="add__input" requiered data-tipo="nombreprod">
+						<label for="nombreprod" class="add__input__label">Nombre del producto</label>
+						<span class="add__mensaje__error"></span>
+					</div>
+                    <div class="add__container__input">
+						<input type="text" id="precioprod" name="precioprod" placeholder="Precio del producto" class="add__input" requiered data-tipo="precioprod">
+						<label for="precioprod" class="add__input__label">Precio del producto</label>
+						<span class="add__mensaje__error"></span>
+					</div>
+                    <div class="add__container__input">
+						<textarea type="text" id="descriprod" name="descriprod" placeholder="Descripción del producto" class="add__txtarea" requiered data-tipo="descriprod"></textarea>
+						<label for="descriprod" class="add__input__label">Descripción del producto</label>
+						<span class="add__mensaje__error"></span>
+					</div>
+					<button type="submit" class="add__btn__send btnacent">Agregar</button>
+				</form>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+
+		<section class="footer">
+			<div class="footer__content">
+				<div class="footer__lt">
+					<div class="footer__logo"><a href="/">
+						<img src="assets/images/img_logo.png" alt="Logo AluraGeek"></a>
+					</div>
+					<div class="footer__links">
+						<p><a href="#1">Quiénes somos</a></p>
+						<p><a href="#2">Política de privacidad</a></p>
+						<p><a href="#3">Política de fidelidad</a></p>
+						<p><a href="#4">Nuestras Tiendas</a></p>
+						<p><a href="#5">Quiero ser franquiciado</a></p>
+						<p><a href="#6">Anuncie aqui</a></p>
+					</div>
+				</div>
+				<div class="footer__contact">
+					<p class="footer__contact_text">Hable con nosotros</p>
+					<form id="footer__contact__form" class="footer__contact__form" action="">
+						<div class="footer__contact__input">                        
+							<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="contact__input" required data-tipo="nombre">
+							<label for="nombre" class="contact__input__label">Nombre</label>
+							<span class="contact__mensaje__error"></span>
+						</div>
+						<div class="footer__contact__input">
+							<textarea type="text" id="mensaje" name="mensaje" placeholder="Mensaje" class="contact__txtarea" required data-tipo="mensaje"></textarea>
+							<label for="mensaje" class="contact__input__label">Escriba su mensaje</label>
+							<span class="contact__mensaje__error"></span>
+						</div>
+							<button type="submit" class="contact__btn__send btnacent">Enviar Mensaje</button>
+					</form>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="footer__rodapie">
+			<div class="rodapie__texto">
+				<p>Desarrollado por Juan Pablo Amador</p>
+				<p>2022</p>
+			</div>
+		</section>
+
+	</footer>
+
+</body>
+</html>

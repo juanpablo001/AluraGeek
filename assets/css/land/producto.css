@@ -1,0 +1,126 @@
+
+.seccion {
+    background-color: var(--color-fondo-primario);
+    padding: 2rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.producto {
+    width: 1136px;
+}
+
+.pro__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pro__title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.35rem;
+}
+
+.pro__todo {
+    display: flex;
+    font-weight: 700;
+}
+
+.pro__todo__lnk {
+    padding-right: 1rem;
+}
+
+.pro__lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.pro__detalle {
+    /*width: 15%;*/
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.pro__img {
+    /*width: 100%;*/
+    width: 176px;
+    /*height: 174px;*/
+}
+
+.pro__lnk__img:last-child {
+    margin-right: 0;
+}
+
+.pro__nombre {
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+}
+.pro__costo {
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.pro__lnk {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    color: var(--color-texto-destacado);
+}
+
+@media (max-width: 1200px) {
+    .seccion {
+        padding: 1.5rem 1rem 0rem 1rem;
+    }
+    .pro__detalle:nth-child(6) {
+        display: none;
+    }
+    .pro__detalle:nth-child(5) {
+        margin-right: 0;
+    }
+}
+@media (max-width: 1024px) {
+    .seccion {
+        padding: 1.5rem 1rem 0rem 1rem;
+    }
+    .pro__detalle:nth-child(n+5):nth-child(-n+6) {
+        display: none;
+    }
+    .pro__detalle:nth-child(4) {
+        margin-right: 0;
+    }
+}
+@media (max-width: 768px) {
+    .seccion {
+        padding: 1.5rem 1rem 0rem 1rem;
+    }
+    .pro__title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .pro__img {
+        width: 164px;
+    }
+    .pro__detalle:nth-child(n+4):nth-child(-n+6) {
+        display: none;
+    }
+    .pro__detalle:nth-child(3) {
+        margin-right: 0;
+    }
+}
+@media (max-width: 560px) {
+    .pro__img {
+        width: 156px;
+    }
+    .pro__detalle:nth-child(n+3):nth-child(-n+6) {
+        display: none;
+    }
+    .pro__detalle:nth-child(2) {
+        margin-right: 0;
+    }
+}
+@media (max-width: 360px) {
+    
+}

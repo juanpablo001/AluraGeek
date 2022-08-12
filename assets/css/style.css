@@ -1,0 +1,25 @@
+:root {
+    --raleway: "Raleway", sans-serif;
+
+    --color-texto-primario: #464646;
+    --color-texto-destacado: #2A7AE4;
+    --color-texto-buscar: #A2A2A2;
+    --color-texto-blanco: #FFFFFF;
+
+    --color-fondo-primario: #F5F5F5;
+    --color-fondo-destacado: #EAF2FD;
+    --color-fondo-base: #FFFFFF;
+    --color-fondo-acento: #388BF9;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-fondo-base);
+    font-family: var(--raleway);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*############################################*/
